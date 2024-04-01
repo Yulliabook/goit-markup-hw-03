@@ -35,14 +35,16 @@ img {
   padding-right: 15px;
   margin: 0 auto;
 }
-.nav-container {
+.headre-container {
   display: flex;
   align-items: center;
+  flex-direction: row;
+  align-content: center;
+  height: 72;
+  justify-content: space-between;
+  flex-shrink: 0;
 }
-.nav {
-  display: flex;
-  align-items: center;
-}
+
 .header {
   padding-top: 24px;
   padding-bottom: 24px;
@@ -65,22 +67,23 @@ img {
   color: #2e2f42;
 }
 .header-nav-link {
-  display: flex;
-  align-items: center;
-  gap: 0;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  padding: 10px;
   text-decoration: none;
+}
+.header-nav-list {
+  display: flex;
+  align-items: flex-start;
+  gap: 40px;
+  flex-grow: 3;
 }
 .header-list {
   display: flex;
-  align-items: center;
-  gap: 0;
-  margin-right: 72px;
+  align-items: flex-start;
+  gap: 40px;
 }
 .header-nav-link:hover {
   color: #404bbf;
@@ -98,8 +101,7 @@ img {
   display: flex;
   align-items: flex-end;
   gap: 10px;
-  margin-left: 332px;
-  margin-right: 15px;
+  padding-left: 15px;
 }
 .address-item-link {
   font-weight: 400;
@@ -243,10 +245,8 @@ img {
 }
 .portfolio-list {
   display: flex;
-  gap: 24px;
   flex-wrap: wrap;
-  padding: 32px 16px;
-  margin: 0 auto;
+  justify-content: space-between;
 }
 .portfolio-header {
   text-align: center;
@@ -256,6 +256,8 @@ img {
   line-height: 1.11;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  padding-top: 120px;
+  padding-bottom: 72px;
 }
 .portfolio-subheader {
   font-weight: 500;
@@ -279,6 +281,9 @@ img {
   padding-bottom: 100px;
   padding-left: 156px;
   padding-right: 1020px;
+}
+footer .logo {
+  padding-bottom: 16px;
 }
 .footer-logo {
   padding-bottom: 16px;
