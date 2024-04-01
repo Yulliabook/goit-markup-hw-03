@@ -42,11 +42,11 @@ img {
   height: 72;
   justify-content: space-between;
   flex-shrink: 0;
+  padding: 24px 0;
 }
 
 .header {
   border-bottom: 1px solid #e7e9fc;
-  padding: 24px 0;
 }
 .logo {
   display: flex;
