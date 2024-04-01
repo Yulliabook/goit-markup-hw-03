@@ -31,8 +31,7 @@ img {
 }
 .container {
   max-width: 1158px;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding: 0 15px;
   margin: 0 auto;
 }
 .headre-container {
@@ -84,6 +83,7 @@ img {
   display: flex;
   align-items: flex-start;
   gap: 40px;
+  padding: 24px 0;
 }
 .header-nav-link:hover {
   color: #404bbf;
@@ -178,6 +178,7 @@ img {
   padding: 0;
   white-space: nowrap;
   clip-path: inset(100%);
+  clip: rect(0 0 0 0);
   overflow: hidden;
 }
 .benefits-list {
@@ -262,7 +263,7 @@ img {
   row-gap: 48px;
 }
 .portfolio-item {
-  flex-basis: calc((100% - 48px) / 3);
+  width: calc((100% - 48px) / 3);
 }
 .portfolio-card {
   padding: 32px 16px;
