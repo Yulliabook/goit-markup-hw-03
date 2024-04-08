@@ -287,7 +287,9 @@ footer .logo {
   display: inline-block;
   margin-bottom: 16px;
   margin-right: 0;
+  padding: 0;
 }
+
 .footer-logo {
   padding-bottom: 16px;
 }
